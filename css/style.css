@@ -1,0 +1,45 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+
+body{
+    background: url("../img/EnglishGreen.jpeg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: orange;
+    font-size: 2.5em;
+    text-shadow: 5px 5px 5px purple;
+}
+#board{
+    height: 400px;
+    width:600px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    background-color: plum;
+    border: 10px solid purple;
+
+ 
+}
+
+img{
+    height: 150px;
+    width: 100px;
+    background-color: gold;
+    margin: 20px 5px;
+    padding: 5px;
+
+}
+
+/*
+.card{
+    border: 5px solid yellow;
+} */
+
